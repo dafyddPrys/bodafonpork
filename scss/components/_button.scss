@@ -1,0 +1,14 @@
+.button {
+	height:50px;
+	background-color: $white;
+	color : $dark-grey;
+	text-transform: none;
+	font-size:16px;
+	border:none;
+    border-radius: 3px;
+}
+
+.button:hover {
+	color: $pork-accent;
+	border:none;
+}

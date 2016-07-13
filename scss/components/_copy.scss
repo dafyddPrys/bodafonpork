@@ -1,0 +1,23 @@
+article {
+    font-size: 12pt;   
+    background-color: $white;
+    padding: $margin-desktop 0;
+}
+
+.article__title {
+    padding : 0 $margin-mobile ;
+}
+
+
+.article__section {
+    padding : 0 $margin-mobile;
+    
+    
+}
+
+.article__separator {
+    width:80%;
+    height:2px;
+    background-color:$light-grey;
+    margin: $margin-mobile auto;
+}

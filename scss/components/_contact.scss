@@ -1,0 +1,54 @@
+.contact__container {
+    text-align: center;
+    padding : $margin-mobile;
+    box-sizing: border-box;
+
+}
+
+.contact__media-buttons {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:auto;
+    padding : $margin-mobile 0;
+    text-align: center;
+    padding:0;
+}
+
+.contact__button {
+    margin-top: $margin-mobile;
+    width:250px;
+    color:$white;
+}
+
+.contact__button--twitter {
+    background-color: $twitter-blue;
+}
+
+.contact__button--facebook {
+    background-color: $facebook-blue;   
+}
+
+.contact__form {
+    display:flex;
+    flex-direction: column;
+    padding-top:$margin-mobile;   
+    
+    input, textarea {
+        width:250px; 
+
+    }
+    
+    textarea {
+        height:200px;   
+    }
+    
+    button {
+        color: $white;
+        background-color: $pork-green;        
+    }
+}
+
+.contact__separator {
+    margin: 10px 0;
+}

@@ -1,0 +1,36 @@
+.location {
+  padding: 0 10px;
+  margin-bottom:20px;
+  font-size:14px;
+
+
+  h3 {
+    margin-bottom:10px;
+  }
+}
+
+.location__introduction {
+  margin: 20px 0 ;
+  font-style: italic;
+}
+
+.location__description {
+
+  p {
+    margin-bottom:10px;
+  }
+
+}
+
+.location__map{
+
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    width:100%;
+    height:300px;
+    resize:both;
+  }
+
+}

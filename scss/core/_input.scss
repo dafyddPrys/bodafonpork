@@ -1,0 +1,61 @@
+input[type="email"],
+input[type="text"],
+textarea {
+    
+    &:focus::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        opacity:0.2;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        opacity:0.2;
+
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        opacity:0.2;
+
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        opacity:0.2;
+    }
+    
+    
+}
+
+
+
+input[type="email"],
+input[type="text"] {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid $dark-grey;
+    
+    &:focus {
+        border-radius: 0;
+        border: 0;
+        border-bottom: 2px solid $pork-green;
+    }    
+    
+    &.invalid {
+        border-bottom-color: $red;   
+    }
+
+
+}
+
+textarea {
+    border : 2px solid $dark-grey;
+    resize:vertical;
+    
+    &:focus {
+        border : 2px solid $pork-green;   
+    }
+    
+    &.invalid {
+        border: 2px solid $red;   
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+.image__main {
+	width: 80%;	
+	max-width:380px;
+	max-height:250px;
+	margin: 0 auto;
+	display: block;
+}
+
+.image__shadow {
+	box-shadow: 0 10px 30px $transparent-black-25;
+}
+
+.image__container {
+	padding-top:20px;
+}

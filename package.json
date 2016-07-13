@@ -1,0 +1,28 @@
+{
+  "name": "bodafon",
+  "version": "1.0.0",
+  "description": "Bodafon pork",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "onchange 'scss/**/*.scss' -- npm run build-css",
+    "start-server" : "lite-server",
+    "start": " parallelshell 'npm run start-server' 'npm run watch-css'"
+  },
+  "author": "Dafydd Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "node-sass": "^3.7.0",
+    "scss-flex-grid": "^0.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.7",
+    "lite-server": "^2.2.0",
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2",
+    "onchange": "^2.4.0",
+    "parallelshell": "^2.0.0"
+  }
+}
