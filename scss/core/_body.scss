@@ -5,21 +5,13 @@ html , body {
 
 
 body {
-	margin : 0 0 30px;
+	// padding : 0 0 30px;
 	min-height:100%;
+	position: relative;
 }
 
-.main {
-	width:100%;
-	height:auto;
-  min-height:100%;
-//background-color: $pork-green;
-  background-image:url(../assets/img/dot.png);
-	z-index:-1;
-}
-
-main {
-//    padding : $margin-mobile;
-//    padding-bottom:30px;
-
+.page {
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
 }

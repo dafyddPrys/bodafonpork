@@ -1,6 +1,14 @@
 body {
 	font-family: "AW Conqueror Sans";
-	font-size : 16pt;
+	font-size : 12pt;
+
+	@media all and (min-width:500px) {
+		font-size:14pt;
+	}
+
+	@media all and (min-width:1000px) {
+		font-size:16pt;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {

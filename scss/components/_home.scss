@@ -1,0 +1,44 @@
+
+.home {
+  min-height: 100%;
+  width:100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.home__logo__container {
+  box-sizing: border-box;
+  width: 70%;
+  max-width:500px;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  padding-top: 30px;
+
+  @media all and (min-width : 500px) {
+    height:50%;
+  }
+}
+
+
+.home__logo {
+  max-width: 100%;
+  box-shadow: 0 10px 30px $transparent-black-25;
+}
+
+
+.home__menu__container {
+
+  height:auto;
+  display: flex;
+  flex-direction:column;
+  width:200px;
+  justify-content: center;
+  flex:1;
+
+}

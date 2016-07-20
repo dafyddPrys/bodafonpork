@@ -1,0 +1,17 @@
+article {
+  max-width: 800px;
+  margin:0 auto;
+  background-color: $white;
+  padding: $margin-desktop $margin-mobile;
+
+  @media all and (min-width: 500px) {
+    padding : $margin-desktop $margin-desktop;
+  }
+}
+
+.article__separator {
+    width:80%;
+    height:20px;
+    background-color:$light-grey;
+    margin: $margin-mobile auto;
+}
